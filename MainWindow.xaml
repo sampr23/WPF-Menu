@@ -82,7 +82,8 @@
                     HorizontalAlignment="Left"
                     Margin="5"
                     Grid.Column="1"
-                    Style="{StaticResource ModernTextBox}" TextChanged="TextBox_TextChanged_1"/>
+                    Style="{StaticResource ModernTextBox}" TextChanged="TextBox_TextChanged_1"
+                    />
 
 
             <ContentControl Grid.Row="1"

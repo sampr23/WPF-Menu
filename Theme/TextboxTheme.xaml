@@ -17,7 +17,12 @@
                                      VerticalAlignment="Center"
                                      Padding="5"
                                      Foreground="#CFCFCF"
-                                     x:Name="SearchBox"/>
+                                     x:Name="SearchBox">
+                                
+                                <TextBox.InputBindings>
+                                    <KeyBinding Command="{Binding SearchViewCommand}" Key="Enter" />
+                                </TextBox.InputBindings>
+                            </TextBox>
 
                             <TextBlock IsHitTestVisible="False"
                                        Text="Search"

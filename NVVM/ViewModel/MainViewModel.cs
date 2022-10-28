@@ -12,10 +12,12 @@ namespace wpfTuto.NVVM.ViewModel
         public RelayCommand HomeViewCommand { get; set; }
         public RelayCommand DiscoveryViewCommand { get; set; }
         public RelayCommand FeaturedViewCommand { get; set; }
+        public RelayCommand SearchViewCommand { get; set; }
 
         public HomeViewModel HomeVm { get; set; }
         public DiscoveryViewModel DiscoveryVm { get; set; }
         public FeaturedViewModel FeaturedViewVm { get; set; }
+        public SearchViewModel SearchVm { get; set; }
 
         private object _currentView;
 
@@ -50,6 +52,11 @@ namespace wpfTuto.NVVM.ViewModel
             FeaturedViewCommand = new RelayCommand(o =>
             {
                 CurrentView = FeaturedViewVm;
+            });
+
+            SearchViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = SearchVm;
             });
         }
     }

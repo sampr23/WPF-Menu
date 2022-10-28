@@ -31,3 +31,5 @@ C:\Users\Samuel\source\repos\wpfTuto\obj\Debug\net6.0-windows\wpfTuto.Properties
 C:\Users\Samuel\source\repos\wpfTuto\obj\Debug\net6.0-windows\wpfTuto.csproj.GenerateResource.cache
 C:\Users\Samuel\source\repos\wpfTuto\obj\Debug\net6.0-windows\NVVM\View\FeaturedView.g.cs
 C:\Users\Samuel\source\repos\wpfTuto\obj\Debug\net6.0-windows\NVVM\View\FeaturedView.baml
+C:\Users\Samuel\source\repos\wpfTuto\obj\Debug\net6.0-windows\NVVM\View\SearchView.g.cs
+C:\Users\Samuel\source\repos\wpfTuto\obj\Debug\net6.0-windows\NVVM\View\SearchView.baml
