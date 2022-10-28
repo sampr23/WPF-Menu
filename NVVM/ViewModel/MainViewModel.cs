@@ -10,10 +10,13 @@ namespace wpfTuto.NVVM.ViewModel
     internal class MainViewModel : ObservableObject
     {
         public RelayCommand HomeViewCommand { get; set; }
-        public RelayCommand DiscoveryViewCommand { get; set; }  
+        public RelayCommand DiscoveryViewCommand { get; set; }
+        public RelayCommand FeaturedViewCommand { get; set; }
 
         public HomeViewModel HomeVm { get; set; }
         public DiscoveryViewModel DiscoveryVm { get; set; }
+        public FeaturedViewModel FeaturedViewVm { get; set; }
+
         private object _currentView;
 
         public object CurrentView
@@ -30,6 +33,7 @@ namespace wpfTuto.NVVM.ViewModel
         {
             HomeVm = new HomeViewModel();
             DiscoveryVm = new DiscoveryViewModel();
+            FeaturedViewVm = new FeaturedViewModel();
 
             CurrentView = HomeVm;
 
@@ -41,6 +45,11 @@ namespace wpfTuto.NVVM.ViewModel
             DiscoveryViewCommand = new RelayCommand(o =>
             {
                 CurrentView = DiscoveryVm;
+            });
+
+            FeaturedViewCommand = new RelayCommand(o =>
+            {
+                CurrentView = FeaturedViewVm;
             });
         }
     }

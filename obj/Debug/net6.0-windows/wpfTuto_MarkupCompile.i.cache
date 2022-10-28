@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Samuel\source\repos\wpfTuto\App.xaml
-586615948
+6701476334
 
-141711958489
+161825059996
 194618410957
-MainWindow.xaml;NVVM\View\DiscoveryView.xaml;NVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
+MainWindow.xaml;NVVM\View\DiscoveryView.xaml;NVVM\View\FeaturedView.xaml;NVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextboxTheme.xaml;
 
 True
 
